@@ -81,7 +81,7 @@ header, footer {
 
 /* О курсе */
 
-.about, .shedule {
+.about, .shedule, .author, .buy {
     background-color: #eee;
 }
 
@@ -117,10 +117,44 @@ header, footer {
 }
 
 /* Программа курса */
-
-.accordion-button:not(.collapsed) {
+.accordion-button:not(.collapsed)::after {
     color: var(--bs-black);
     background-color: var(--bs-white);
+}
+
+/* Процесс обучения */
+.learning h5 {
+    padding: 25px;
+    border: 3px solid var(--color1);
+}
+
+/* Об авторе */
+.autor {
+    padding-bottom: 0;
+}
+
+.itd_img {
+    max-width: 260px;
+}
+
+/* Отзывы */
+
+.itd_circle2 {
+    margin: 0 auto 15px;
+    width: 100px;
+    height: 100px;
+    border: 3px solid var(--color1);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bg2 {
+    /* width: 100px;
+    height: 3px; */
+    background-color: var(--color2);
+    /* margin: 15px auto 30px; */
 }
 
 /* Цвет */
