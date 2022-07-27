@@ -164,16 +164,18 @@ footer {
 }
 
 .itd_circle1 {
-    margin: 0 auto 5px;
+    margin-right: 7px;
     width: 45px;
     height: 45px;
     border: 1px solid white;
     border-radius: 50%;
     display: flex;
-    /* justify-content: center; */
     justify-content: center;
     align-items: center;
-    cursor: pointer;
+}
+
+.itd_center {
+    justify-content: center;
 }
 
 /* .itd_play {
